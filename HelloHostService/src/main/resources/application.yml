@@ -1,0 +1,11 @@
+server:
+  port: 9990
+
+spring:
+  applicaiton:
+    name: hello-service
+
+logging:
+  config: logback.xml
+  level:
+    my.demo.hello: trace
